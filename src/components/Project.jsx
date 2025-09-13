@@ -4,7 +4,7 @@ import intro from "/intro-dropdown.png";
 import goal from "/Goal.png";
 import belle from "/belle-full.png";
 import world from "/world app.png";
-import travel from "/travel .png";
+import port from "/portfolio.png";
 import contact from "/contact.png";
 
 const projects = [
@@ -30,13 +30,13 @@ const projects = [
   },
   {
     name: "Portfolio",
-    image: travel,
+    image: port,
     description:
       "My personal portfolio showcasing projects, skills, and contact info.",
 
     tech: ["React", "Javascript", "Tailwind"],
-    demo: "https://belle-full-nine.vercel.app",
-    code: "https://github.com/Naya-dev1/BELLE-FULL.git",
+    demo: "portfolio-ruby-beta-hur346pclt.vercel.app",
+    code: "https://github.com/Naya-dev1/portfolio.git",
     category: "going",
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     image: contact,
     description: "A functional contact form with validation and clean UI.",
     tech: ["HTML", "CSS", "JS"],
-    demo: "https://contact-form-weld-sigma.vercel.app",
+    demo: "contact-form-weld-sigma.vercel.app",
     code: "https://github.com/Naya-dev1/Contact-Form.git",
     category: "started",
   },

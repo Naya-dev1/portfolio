@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+.transform-style {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+.group-hover\:rotate-y-180:hover {
+  transform: rotateY(180deg);
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+/* index.css or App.css */
+/* index.css or App.css */
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --primary-color: #1A4D8F;
+  --nav-bg: rgba(255, 255, 255, 0.95);
+  --nav-border: #e5e7eb;
+}
+
+[data-theme="dark"] {
+  --bg-color: #111111;
+  --text-color: #ffffff;
+  --primary-color: #1A90FF;
+  --nav-bg: rgba(20, 20, 20, 0.95);
+  --nav-border: #2c2c2c;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+nav {
+  background-color: var(--nav-bg);
+  border-color: var(--nav-border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}

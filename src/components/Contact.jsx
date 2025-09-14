@@ -89,7 +89,7 @@ const Contact = () => {
     <FaWhatsapp className="text-xl" />
   </a>
   <a
-    href="https://github.com/YOUR_GITHUB"
+    href="https://github.com/Naya-dev1"
     target="_blank"
     rel="noopener noreferrer"
     className={`p-3 rounded-full transition shadow-md ${
@@ -101,7 +101,7 @@ const Contact = () => {
     <FaGithub className="text-xl" />
   </a>
   <a
-    href="https://linkedin.com/in/YOUR_LINKEDIN"
+    href="https://www.linkedin.com/in/stephanie-onyekwelibe-97228323b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     target="_blank"
     rel="noopener noreferrer"
     className={`p-3 rounded-full transition shadow-md ${

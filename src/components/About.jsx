@@ -43,7 +43,7 @@ const About = () => {
             My journey into{" "}
             <span className="text-[#1A4D8F] font-semibold">tech</span> started
             with a love for{" "}
-            <span className="text-[#1A4D8F]">reading novels 📚</span>. That
+            <span className="text-[#1A4D8F]">reading novels </span>. That
             curiosity led me to discover{" "}
             <span className="text-[#1A4D8F] font-semibold">programming</span> —
             writing things that may seem abstract to others but result in
@@ -51,7 +51,7 @@ const About = () => {
             <span className="text-[#1A4D8F] font-semibold">TechStudio</span>,
             enhancing my knowledge and building confidence. As a creative at
             heart, coding is the perfect blend of logic and art. When I’m not
-            coding, I’m most likely reading or vibing to music 🎶.
+            coding, I’m most likely reading or vibing to music .
           </p>
 
           {/* CTA Buttons */}

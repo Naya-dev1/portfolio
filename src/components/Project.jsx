@@ -44,7 +44,7 @@ const projects = [
     image: contact,
     description: "A functional contact form with validation and clean UI.",
     tech: ["HTML", "CSS", "JS"],
-    demo: "contact-form-weld-sigma.vercel.app",
+    demo: "https://contact-form-weld-sigma.vercel.app",
     code: "https://github.com/Naya-dev1/Contact-Form.git",
     category: "started",
   },
@@ -66,8 +66,8 @@ const projects = [
     description:
       "An e-commerce platform with a shopping cart and checkout flow.",
     tech: ["React", "Css", "Tailwind"],
-    demo: "https://",
-    code: "https://github.com/Naya-dev1/Travelling-landing-page.git",
+    demo: "https://belle-full-nine.vercel.app",
+    code: "https://github.com/Naya-dev1/BELLE-FULL.git",
     category: "started",
   },
 ];
